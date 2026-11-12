@@ -141,6 +141,8 @@ details p { color: var(--ink-2); }
 .contact-list { display: grid; grid-template-columns: 140px 1fr; gap: 10px 16px; margin: 20px 0; }
 .contact-list dt { color: #cfe0d8; font-weight: 600; }
 .contact-list dd { margin: 0; font-weight: 700; }
+.contact-img { margin: 0; max-width: 380px; justify-self: center; }
+.contact-img img { border-radius: var(--radius); aspect-ratio: 3 / 4; object-fit: cover; width: 100%; }
 .map-ph { min-height: 300px; border-radius: var(--radius); border: 2px dashed rgba(255,255,255,.4); display: grid; place-items: center; padding: 20px; text-align: center; background: rgba(255,255,255,.05); }
 
 .footer { background: #0a2a20; color: #cfe0d8; padding: 28px 0 90px; font-size: 15px; }
